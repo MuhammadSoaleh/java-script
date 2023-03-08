@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var a= +prompt("enter your math  marks!")
+        var b= +prompt("enter your english marks!")
+        var c= +prompt("enter your urdu marks!")
+        var d= +prompt("enter your computer marks!")
+        var e= +prompt("enter your science marks!")
+
+
+        var ob= a+b+c+d+e;
+        var tm= 500;
+        var per= ob/tm*100;
+        document.write("your obtain marks ---> "+ ob +"<br>")
+        document.write("your percentage marks --->" +per +"<br>")
+
+        if(per >= 80){document.write("A+")}
+        else if (per >=70){document.write("A")}
+        else if (per >=60){document.write("B")}
+        else if (per >=50){document.write("C")}
+        else if (per >=40){document.write("D")}
+
+
+
+
+        if(per >= 80){document.write("BRILLIANT STUDENT KEEP IT UP")}
+        else if (per >=70){document.write("EXCELLENT STUDENT KEEP WORK HARD")}
+        else if (per >=60){document.write("GOOD PERFORMANCE GIVE SOME MORE TIME TO YOUR STUDY")}
+        else if (per >=50){document.write("WORK HARD BETTER LUCK NEXT TIME")}
+        else if (per >=40){document.write("FAILURE IS A PATH OF SUCCES")}
+
+
+    </script>
+</body>
+</html>

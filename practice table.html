@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="//cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+<link rel="stylesheet" type="text/css" href="/DataTables/datatables.css">
+ 
+<script type="text/javascript" charset="utf8" src="/DataTables/datatables.js"></script>
+
+</head>
+<body>
+    <table id="myTable" class="display">
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1 Data 1</td>
+                <td>Row 1 Data 2</td>
+            </tr>
+            <tr>
+                <td>Row 2 Data 1</td>
+                <td>Row 2 Data 2</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="//cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+    <script >$(document).ready( function () {
+        $('#myTable').DataTable();
+    } );</script>
+    <script>var $  = require( 'jquery' );
+        var dt = require( 'datatables.net' )();</script>
+        <script>$(document).ready( function () {
+            $('#myTable').DataTable();
+        } );</script>
+        <script>let table = new DataTable('#myTable', {
+            // options
+        });</script>
+        <script>
+            $(document).ready(function(){
+            $('#myTable').DataTable({
+            dom:'Bfrtip',button:
+            ['print','excel','print','pdf','csv']
+            })
+            
+            })
+            
+                </script>
+                <script>window.$ = window.jquery = require('./node_modules/jquery');
+                    window.dt = require('./node_modules/datatables.net')();
+                    window.$('#myTable').DataTable();
+                    </script>
+</body>
+</html>
